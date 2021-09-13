@@ -2,20 +2,21 @@
 
 html {
     display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 body {
-    min-width: 100vw;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+    
 }
 
 header, footer {
+    min-width: 100vw;
     display: flex;
-    padding: 10px;
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
@@ -176,6 +177,7 @@ footer {
     }
 
     .contact-container {
+        height: 100%;
         width: 100%;
         border-radius: 0;
         justify-content: center;
