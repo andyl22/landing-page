@@ -12,7 +12,6 @@ header, footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 10px 0px;
 }
 
 header {
@@ -157,8 +156,8 @@ input[type=email] {
 }
 
 footer {
+    text-align: center;
     justify-content: center;
-    align-items: center;
 }
 
 
@@ -171,6 +170,18 @@ footer {
 
 
 @media only screen and (max-width:750px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    footer p {
+        margin: 0;
+    }
 
     .header-bar, .intro {
         flex-direction: column;
@@ -205,6 +216,7 @@ footer {
     .contact-container {
         padding: 0;
         width: 100%;
+        height: 100%;
         border-radius: 0;
         justify-content: center;
         align-items: center;
